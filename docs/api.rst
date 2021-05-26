@@ -4,5 +4,5 @@ API
 ``tools``
 -------------
 
-.. autofunction:: pymask.tools.tag_first
+.. autofunction:: pymask.tools.tag_it
 
