@@ -1,7 +1,7 @@
 API
 ===
 
-``tools guido``
+``tools``
 -------------
 
 .. autofunction:: pymask.tools.tag_it
