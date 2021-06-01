@@ -15,6 +15,7 @@
     <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="lhcmask" href="index.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -36,13 +37,13 @@
 <section id="tools">
 <h2><code class="docutils literal notranslate"><span class="pre">tools</span></code><a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
 <dl class="py function">
-<dt class="sig sig-object py" id="pymask.tools.tag_first">
-<span class="sig-prename descclassname"><span class="pre">pymask.tools.</span></span><span class="sig-name descname"><span class="pre">tag_first</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">myfile</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mycomment</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pymask.tools.tag_first" title="Permalink to this definition">¶</a></dt>
-<dd><p>tag_first is to overwrite an already existing yaml file or create a new yaml file and add the first timestamps.</p>
-<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">tag_it</span><span class="p">(</span><span class="s1">&#39;myfile&#39;</span><span class="p">,</span> <span class="s1">&#39;hello&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>If ‘my_file’ already exits, it will overwrite that file and create a first timestamp.</p>
+<dt class="sig sig-object py" id="tools.tag_it">
+<span class="sig-prename descclassname"><span class="pre">tools.</span></span><span class="sig-name descname"><span class="pre">tag_it</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">myfile</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mycomment</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tools.tag_it" title="Permalink to this definition">¶</a></dt>
+<dd><p>tag_it is to create timestamps and add them to a yaml file.
+Examples
+——–
+&gt;&gt;&gt; tag_it(‘myfile’, ‘hello’)</p>
+<p>This will create a a human readable and a unix time stamp and append that to ‘myfile’, includin the comment ‘hello’</p>
 </dd></dl>
 
 </section>
@@ -65,11 +66,19 @@
 
 
 <h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tools"><code class="docutils literal notranslate"><span class="pre">tools</span></code></a></li>
+</ul>
+</li>
+</ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">lhcmask</a></li>
   </ul></li>
 </ul>
 </div>
