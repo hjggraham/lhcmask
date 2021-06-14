@@ -6,5 +6,5 @@ API
 
 
 .. autofunction:: tools.tag_first
-\n
+'\n'
 .. autofunction:: tools.tag_it
